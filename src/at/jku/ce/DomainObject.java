@@ -11,12 +11,12 @@ public class DomainObject {
 	*	Default constructor
 	*/
 
-	public DomainObject(String id) {
+	protected DomainObject(String id) {
 		super();
 		this.id = id;
 	}
 
-	public DomainObject(String name, String comment) {
+	protected DomainObject(String name, String comment) {
 		super();
 	}
 
@@ -36,7 +36,7 @@ public class DomainObject {
 		return name;
 	}
 
-	public void setName(String name) {
+	public void setName(final String name) {
 		this.name = name;
 	}
 
