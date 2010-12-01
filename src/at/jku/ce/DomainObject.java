@@ -13,4 +13,7 @@ public class DomainObject {
 		super();
 	}
 
+	public String getId() {
+		return id;
+	}
 }
