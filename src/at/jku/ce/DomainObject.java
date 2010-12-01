@@ -15,7 +15,7 @@ public class DomainObject {
 		this.id = id;
 	}
 
-	public DomainObject() {
+	public DomainObject(String name, String comment) {
 		super();
 	}
 
