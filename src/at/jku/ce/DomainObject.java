@@ -1,6 +1,6 @@
 package at.jku.ce;
 
-public class DomainObject {
+public class DomainObject implements Compareable<DomainObject> {
 
 	private String uuid = UUID.randomUUID().toString();
 
@@ -14,6 +14,12 @@ public class DomainObject {
 	public DomainObject(String id) {
 		super();
 		this.id = id;
+	}
+
+	public compareTo(sjdjsdjsjdj) {
+		fwefwef
+		wgvwe
+		wwe
 	}
 
 	public DomainObject(String name, String comment) {
